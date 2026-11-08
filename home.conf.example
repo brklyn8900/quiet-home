@@ -1,0 +1,21 @@
+# Quiet Home list. Copy to home.conf, edit, then run ./install.sh conf to push it to the TV.
+#
+# Watch column, top to bottom:  app <package> [name to show]
+# Find package names with:  adb shell pm list packages
+app com.google.android.youtube.tv
+app com.netflix.ninja
+app com.amazon.amazonvideo.livingroom
+app com.disney.disneyplus
+app com.wbd.stream
+app com.hulu.livingroomplus
+app com.peacocktv.peacockandroid
+app com.cbs.ott
+app com.plexapp.android
+app org.jellyfin.androidtv
+
+# Devices column (optional). Devices appear automatically under the name they report;
+# use these lines to rename one, pick its icon (game or box), or hide an unused port.
+#   input <hdmiN> <icon: game|box> <name>
+#   hide <hdmiN>
+# input hdmi3 game PlayStation 5
+# hide hdmi1

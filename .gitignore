@@ -1,0 +1,5 @@
+build/
+keystore/
+home.conf
+backgrounds/
+.DS_Store

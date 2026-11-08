@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiet Home</string>
+    <string name="watch">Watch</string>
+    <string name="devices">Devices</string>
+    <string name="service_description">Opens Quiet Home when you press the Home button. Reads only which app is on screen; sends nothing anywhere.</string>
+</resources>
