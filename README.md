@@ -98,6 +98,10 @@ Google's home screen (or your previous launcher) comes back.
 
 `core/` holds the decisions: config parsing, list building and sorting, HDMI port parsing, the crash guard, wake handling, Home-press de-duplication, usage counting and background rotation. The Android classes around it are thin.
 
+## For AI agents
+
+Setting this up with Claude Code, Codex or another agent? Point it at [AGENTS.md](AGENTS.md): setup steps, safety rules and what to check on other TVs.
+
 ## License
 
 MIT, see [LICENSE](LICENSE).
