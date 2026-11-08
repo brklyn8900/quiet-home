@@ -44,7 +44,8 @@ Safety nets:
 ```bash
 adb connect <tv-ip>:5555                  # approve the prompt on the TV the first time
 ./build.sh --new-key                      # first build only: runs the tests, makes a signing key, builds the APK
-export TV=<tv-ip>:5555
+echo <tv-ip>:5555 > .tv                  # remembered for later installs (git ignores it)
+TV=$(cat .tv)
 ./install.sh                              # installs the app, pushes your list and pictures
 adb -s $TV shell settings put secure enabled_accessibility_services local.tvhome/local.tvhome.HomeAccessibilityService
 adb -s $TV shell settings put secure accessibility_enabled 1

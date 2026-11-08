@@ -5,7 +5,8 @@
 #   ./install.sh show X   push like "conf", then show the picture whose name contains X for 30 minutes
 set -euo pipefail
 cd "$(dirname "$0")"
-ADB=(${ANDROID_HOME:-$HOME/Library/Android/sdk}/platform-tools/adb -s ${TV:?set TV=<tv-ip>:5555})
+TV=${TV:-$(cat .tv 2>/dev/null || true)}   # or keep your TV's address (<ip>:5555) in .tv, which git ignores
+ADB=(${ANDROID_HOME:-$HOME/Library/Android/sdk}/platform-tools/adb -s ${TV:?set TV=<tv-ip>:5555 or put it in .tv})
 DIR=/sdcard/Android/data/local.tvhome/files
 
 if [[ "${1:-}" != conf && "${1:-}" != show ]]; then

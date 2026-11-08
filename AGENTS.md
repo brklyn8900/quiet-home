@@ -45,7 +45,7 @@ adb -s $TV shell input keyevent KEYCODE_HOME                # press Home (DPAD_U
 
    ```bash
    ./build.sh --new-key            # first build only (tests, signing key, APK)
-   ./install.sh                    # TV=<ip>:5555 must be set
+   ./install.sh                    # TV=<ip>:5555 set, or the address in .tv
    ```
 
 5. **Switch on the Home-button takeover**, with permission:
