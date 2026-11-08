@@ -104,4 +104,4 @@ Setting this up with Claude Code, Codex or another agent? Point it at [AGENTS.md
 
 ## License
 
-MIT, see [LICENSE](LICENSE).
+MIT, see [LICENSE](LICENSE). The bundled Material icons are Apache 2.0, credited in [NOTICE](NOTICE).

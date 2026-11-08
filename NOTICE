@@ -1,0 +1,14 @@
+Quiet Home
+Copyright (c) 2026 Ron Hamenahem. Licensed under the MIT License (see LICENSE).
+
+This project includes icons adapted from Google's Material Icons
+(https://github.com/google/material-design-icons), Copyright Google LLC,
+licensed under the Apache License, Version 2.0 (see licenses/Apache-2.0.txt):
+
+  res/drawable/ic_settings.xml      ("settings")
+  res/drawable/ic_game.xml          ("sports_esports")
+  res/drawable/ic_box.xml           ("tv")
+  res/drawable/ic_apps.xml          ("apps")
+  res/drawable/ic_tv_settings.xml   ("tune")
+
+The icons were converted to Android vector drawables and recolored.
